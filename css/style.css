@@ -301,7 +301,7 @@ input[type="submit"]:hover {
   .mySlides {
     height: 529px;
   }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 400px) {
     .mySlides {
       height: 239px;
     }
