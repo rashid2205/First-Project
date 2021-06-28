@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: 100;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* ============NAVBAR============= */
+
+nav {
+  display: flex;
+  background-color: #f7f1ed;
+  width: 100%;
+}
+.main-nav {
+  display: flex;
+
+  background-color: #f7f1ed;
+  height: 4rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+}
+.main-nav a {
+  background-color: #f7f1ed;
+  text-transform: uppercase;
+  padding-top: 20px;
+  letter-spacing: 0;
+}
+.main-nav .links {
+  text-decoration: none;
+  padding-right: 9px;
+  padding-top: 24px;
+  padding-left: 9px;
+}
+#links {
+  font-size: 1.6rem;
+  font-weight: 1000;
+}
+
+/* =============MAIN CONTENT============= */
+
+.image-heading {
+  position: absolute;
+  top: 18rem;
+  left: 5rem;
+  font-size: 70px;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+}
+.image-buttons {
+  position: absolute;
+  top: 25rem;
+  left: 5rem;
+}
+.menu {
+  padding-left: 30px;
+  text-decoration: none;
+}
+.menu:hover {
+  color: #a6a2a2;
+}
+
+
+/* =================FEATURES================ */
+
+.image-section {
+  height: max-content;
+  position: relative;
+}
+.features {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.about {
+  height: 180vh;
+}
+.features {
+  height: 125vh;
+}
+.contact {
+  height: 110vh;
+}
+form {
+  font-size: 1.1rem;
+}
+footer {
+  height: 20vh;
+  background-color: #f7f1ed;
+}
+/* ===========MENU=========== */
+#menu-content { 
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+}
+#content-2 {
+  font-size: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.menu-list {
+  padding: 50px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.menu-list-price {
+  padding: 30px;
+}
+
+/* =================ABOUT============= */
+.about-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.about-content {
+  padding-top: 5rem;
+  padding-left: 15rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.about-content-2 {
+  padding-left: 15rem;
+  padding-top: 3rem;
+  font-size: 1.1rem;
+}
+footer {
+  height: 30vh;
+}
+
+p > img {
+  height: 500px;
+  width: 500px;
+  float: right;
+  margin-right: 2rem;
+}
+section {
+  width: 100%;
+}
+/* ==========SLIDESHOW========== */
+.anime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f1ed;
+  margin-top: 9rem;
+  width: 100%;
+}
+.mySlides {
+  justify-content: center;
+  width: 1000px;
+  height: 550px;
+  border-radius: 300px;
+}
+
+/* =============HOVERING================= */
+
+.link-hover:hover {
+  font-weight: 600;
+}
+.menu-heading:hover {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  text-shadow: 3px 3px 4px black;
+}
+button:hover {
+  background-color: #bfafa4;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 17rem;
+}
+button {
+  padding: 1rem;
+
+  border: none;
+  cursor: pointer;
+}
+
+/* =============== CONTACT ================ */
+
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+/* ============= CONTACT-FORM ========== */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #f7f1ed;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #bfafa4;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ============== MEDIA QUERIES FOR RESPONSIVENESS =========== */
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.row {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  height: 20vh;
+}
+.fab {
+  padding: 10px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+.hamburger {
+  float: right;
+  display: none;
+  padding-top: 20px;
+  padding-left: 15px;
+  cursor: pointer;
+  background-color: rgb(247, 241, 237);
+}
+
+@media screen and (max-width: 812px) {
+  .mySlides {
+    height: 529px;
+  }
+  @media screen and (max-width: 360px) {
+    .mySlides {
+      height: 239px;
+    }
+    .buttons {
+      bottom: 9rem;
+    }
+    .contact {
+      margin-top: 39vh !important;
+    }
+    .column,
+    input[type="submit"] {
+      margin-top: -11px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  p > img {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #content-2 {
+    font-size: 2rem;
+  }
+  .menu-list {
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+
+  .about-content-2 {
+    padding-left: 1rem;
+  }
+  .about-content {
+    padding-left: 1rem;
+  }
+  .menu-list-price {
+    display: inline;
+  }
+  .features {
+    height: 75vh;
+  }
+  .image-heading {
+    top: 3rem;
+  }
+  .image-buttons {
+    top: 8rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  #content-2 {
+    font-size: 1.2rem;
+  }
+  .menu-list-price {
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+  .menu-heading {
+    font-weight: 1000;
+  }
+
+  .features {
+    height: 55vh;
+  }
+  .menu {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .image-btn {
+    font-size: 12px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .main-nav {
+    flex-direction: column;
+    height: 36vh;
+    width: 100%;
+  }
+  nav {
+    height: 36vh;
+    transition: all 0.1s ease-out;
+  }
+
+  .hamburger {
+    display: block;
+    float: right;
+    padding-top: 24px;
+    padding-right: 24px;
+  }
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .image-buttons {
+    top: 10rem;
+  }
+}
+@media screen and (max-width: 490px) {
+  p > img {
+    height: 360px;
+    width: 360px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contact {
+    margin-top: 78vh;
+  }
+}
+@media screen and (max-width: 820px) {
+  .image-heading {
+    font-size: 52px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .image-heading {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .image-buttons {
+    display: none;
+  }
+  .image-heading{
+    display: none;
+  }
+}

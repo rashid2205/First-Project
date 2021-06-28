@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urbandine</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/favicon-img.jpg" type="image/x-icon" />
+   
+  </head>
+  <body>
+    <!---------    HEADER    --------->
+    <header id="top">
+      <!-- NAVBAR -->
+      
+      <nav class="h-nav-resp navbar" id="main-nav" >
+        <div class="main-nav v-class-resp">
+          <a href="#top" class="links" id="links">URBANDINE</a>
+          <a href="#top" class="links link-hover">Home</a>
+          <a href="#menu" class="links link-hover">Menu</a>
+          <a href="#about" class="links link-hover">About</a>
+          <a href="#contact" class="links link-hover">Contact</a>
+        </div>
+          <div>
+            <a href="#" class="hamburger"><i class="fa fa-bars"></i></a>
+          </div>
+      </nav>
+    </header>
+    <!--============= MAIN CONTENT================-->
+    <section class="image-section">
+        <img src="/images/background-food.jpg" alt="" class="image"> 
+        <h1 class="image-heading">
+          TABLE FOR TWO
+        </h1>   
+        <div class="image-buttons">
+          <button class="image-btn">RESERVE TABLE</button>
+          <a href="#menu" class="menu">OUR MENU </a>
+        </div>
+    </section>
+
+    <!---------    MENU    ----------->
+    <section class="features" id="menu">
+      <div class="content-parent">
+        <h1 id="menu-content" class="features-head">OUR MENU</h1>
+        <p id="content-2" class="features-head">Delicious from the chef</p>  
+      </div>
+     
+      <div class="menu-list">
+        <div class="menu-list-price">
+          <p class="menu-heading" id="menuHead1">PEAR SALAD /$11</p>
+
+          <br />
+          Reid's Orchard Pears / Bitter Greens <br>
+           Granola / Big Firefly / Farms
+          <br />
+          Black and Blue / Pine Nut Vinaigrette
+        </div>
+        <div class="menu-list-price">
+          <p class="menu-heading" id="menuHead2">FARM GREENS /$9</p>
+          <br />
+          Honey Vinaigrette <br>
+           House Cheese Crouton / Fine Herbs
+        </div>
+        <div class="menu-list-price">
+          <p class="menu-heading" id="menuHead3">GRILLED KALE /$9</p>
+          <br />
+          Bitter Greens <br>
+           House Cheese Crouton / Kamon Iberico
+        </div>
+
+        <div class="menu-list-price">
+          <p class="menu-heading " id="menuHead4">BRODETTO DI PESCE /$9</p>
+          <br />
+          Adriatic Seafood Soup / Clams <br>
+           Prawns / Livornese / Langoustine
+          <br />
+          Scallop / Celery / Olive
+        </div>
+      </div>
+    </section>
+
+    <!----------------    ABOUT     ----------------->
+    <section class="about" id="about">
+      <h1 class="about-heading">ABOUT</h1>
+      <p class="about-content">
+        <img src="/images/healthy-food.jpg" alt="" />
+        Health is the most
+        <br />
+        Precious
+      </p>
+      <div class="about-content-2">
+        While it is important to have naturally occuring sugars in your diet,
+        many foods conatin harmful added sugars that contain no nutritional
+        value.
+      </div>
+      <div class="about-content-2">
+        According to a study condcted by the University of Florida, the brian
+        release heroin-like chemicals called endogenous opioids when an
+        individual indulges on sweet, salty or fatty foods.
+      </div>
+           <!--============ THE SLIDESHOW ==============-->
+      <div class="anime">
+        <img class="mySlides" src="/images/Pear-salad-healthyFood.jpg" />
+        <img class="mySlides" src="/images/Honey-Vinaigrette-healthyFood.jpg" />
+
+        <img class="mySlides" src="/images/GRILLED-KALE-healthyFood.jpg" />
+        <img class="mySlides" src="/images/BRODETTO-DI-PESCE-healthyFood.jpg" />
+      </div>
+
+      <div class="buttons">
+        <button class="btn-right" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="btn-left" onclick="plusDivs(+1)">&#10095;</button>
+      </div>
+    </section>
+    <!--============== CONTACT ================-->
+    <section class="contact" id="contact">
+      <h1 class="contact-heading">CONTACT</h1>
+
+      <div class="container">
+        <div style="text-align: center">
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column"></div>
+          <div class="column">
+            <form action="#">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height: 170px"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================== FOOTER  ======================-->
+    <footer>
+      <div class="row">
+        <i class="fab fa-facebook fa-lg"></i>
+        <i class="fab fa-instagram fa-lg"></i>
+        <i class="fab fa-linkedin fa-lg"></i>
+        <i class="fab fa-twitter fa-lg"></i>
+      </div>
+      <div class="copyright">
+        &#169; Copyright 2021 Urbandine
+      </div>
+    </footer>
+
+
+
+    <!-----------  SCRIPT JS  ------------->
+
+   <script src="script.js"></script>
+  </body>
+</html>
