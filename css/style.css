@@ -297,7 +297,7 @@ input[type="submit"]:hover {
   background-color: rgb(247, 241, 237);
 }
 
-@media only screen and (max-width: 400px)   {
+@media only screen and (max-width: 500px)   {
   .mySlides{
     height: 252px;
   }
@@ -306,7 +306,7 @@ input[type="submit"]:hover {
   }
 
 } 
- @media screen and ( max-width: 812px) and (min-width: 401px) {
+ @media screen and ( min-width: 812px) and (max-width: 501px) {
   .mySlides {
     height: 529px;
   } 
