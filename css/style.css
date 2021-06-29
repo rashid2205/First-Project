@@ -312,6 +312,10 @@ input[type="submit"]:hover {
   .mySlides {
     height: 529px;
   } 
+   .anime{
+     display: none;
+   }
+
   @media screen and (max-width: 360px) {
     .mySlides {
       height: 239px;
