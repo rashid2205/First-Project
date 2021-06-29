@@ -297,6 +297,10 @@ input[type="submit"]:hover {
   background-color: rgb(247, 241, 237);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f76604901d18a968e28cff6ea214e0cb39bd5bb3
 @media only screen and (max-width: 500px)   {
   .mySlides{
     height: 252px;
@@ -306,10 +310,21 @@ input[type="submit"]:hover {
   }
 
 } 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f76604901d18a968e28cff6ea214e0cb39bd5bb3
  @media screen and ( min-width: 812px) and (max-width: 501px) {
   .mySlides {
     height: 529px;
   } 
+<<<<<<< HEAD
+=======
+   .anime{
+     display: none;
+   }
+
+>>>>>>> f76604901d18a968e28cff6ea214e0cb39bd5bb3
   @media screen and (max-width: 360px) {
     .mySlides {
       height: 239px;
