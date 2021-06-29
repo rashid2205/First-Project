@@ -298,15 +298,13 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 500px)   {
-  .mySlides{
-    height: 252px;
-  }
+  
   .buttons{
-    bottom: 9rem;
+    bottom: 19rem;
   }
 
 } 
- @media screen and ( min-width: 812px) and (max-width: 501px) {
+ @media screen and ( max-width: 812px) and (min-width: 501px) {
   .mySlides {
     height: 529px;
   } 
